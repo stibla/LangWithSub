@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lang With Subtitle</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.5.min.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://w2ui.com/src/w2ui-1.5.min.js"></script>
+
+    </head>
+    <body>
+
+        <div class="files">
+            <div>
+                <input id="fileselect1" type="file" style="display:none">
+                <div id="filedrag1" class="filedrag">Drop subtitle 1 here or click to upload.</div>
+            </div>
+
+            <div>
+                <input id="fileselect2" type="file" style="display:none">
+                <div id="filedrag2" class="filedrag">Drop subtitle 2 here or click to upload.</div>
+            </div>
+
+            <div>
+                <input id="fileselectvideo" type="file" style="display:none">
+                <div id="filedragvideo" class="filedrag">Drop mp4 video here or click to upload.</div>
+            </div>
+            <button id="buttonNext" class="buttonNext">Next</button>
+
+            <div id="subtitle1" class="subtitle"></div>
+
+            <div id="subtitle2" class="subtitle"></div>
+        </div>
+
+        <div class="videosection">
+            <video id="video" controls>
+                <source id="source" >
+            </video>
+        </div>
+
+        <div id="loader" style="display:none;">
+            <div id="loadertext">Loading...  please wait</div>
+        </div>
+
+        <div id="grid"></div>
+
+    </body>
+    <script src="filedrag.js"></script>
+</html>

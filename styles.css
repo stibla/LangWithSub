@@ -1,0 +1,100 @@
+.filedrag
+{
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	color: #ccc;
+	border: 1px solid #ccc ;
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	font-size: 90%;
+}
+
+.hover
+{
+	color: #f00;
+	border: 1px solid #f00;
+	box-shadow: inset 0 3px 4px #888;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	font-size: 90%;
+}
+
+#grid {
+	height: 350px;
+	margin: 5px;
+}
+
+#loader{
+	position:fixed;
+	top: 0; left:0;
+	background:rgba(256,256,256,0.5);
+	z-index:1200;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#loadertext{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	z-index:1200;
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+}
+
+.files {
+	position: absolute;
+	left: 0px;
+	width: 500px;
+}
+
+.subtitle
+{
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+	margin: 5px 5px 5px 5px;
+	color: #000;
+	border: 1px solid #ccc ;
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	font-size: 90%;
+}
+
+.buttonNext
+{
+	font-family: "Segoe UI", Tahoma, Helvetica, freesans, sans-serif;
+	font-size: 90%;
+	padding: 5px;
+	margin: 15px 5px 5px 5px;
+	width: 98%;
+}
+
+#video {
+	width: 700px
+}
+
+.videosection {
+	/* position is static by default */
+	border: 1px solid #ccc ;
+	margin-left: 500px;
+	height: 280px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background-color: white;
+	width: 100%;
+}
+body {
+	margin-bottom: 120px;
+}
