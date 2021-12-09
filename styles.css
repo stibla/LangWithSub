@@ -77,14 +77,14 @@
 }
 
 #video {
-	width: 700px
+	width: 400px
 }
 
 .videosection {
 	/* position is static by default */
 	border: 1px solid #ccc ;
 	margin-left: 500px;
-	height: 280px;
+	/*height: 280px;*/
 }
 
 footer {
